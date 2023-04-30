@@ -6,31 +6,22 @@ Explain the purpose of the Gamma (𝛾) value.
  
 
 Original Training Outcome:
-
-Screen Shot 2023-04-20 at 8.05.58 PM.png
 ![](./images/plot1.png)
 
  
 
 1. The first change made to the model is the number of layers, it was modified from 128 to 256. The result was not satisfactory, although the model achieved 500 steps much faster than have less layers(128 originally) it was not constant and was much noisy before it started to stabilize again. Below is the outcome:
 
- 
-
-Screen Shot 2023-04-20 at 8.10.57 PM.png
 ![](./images/plot2.png)
  
 
 2. The second change made to the model is the batch size, it was modified from 128 to 64. The result was not satisfactory, although the model was updated more frequently, it took longer to achieve 500 steps. Below is the outcome:
 
-Screen Shot 2023-04-20 at 8.15.53 PM.png
 ![](./images/plot3.png)
  
 
 3. The third change made to the model is the Learning rate, it was modified from 1e-4 to 1e-2. The result was not satisfactory, the model never converged and did not achieve 500 steps even after 600 episodes. Below is the outcome:
 
- 
-
-Screen Shot 2023-04-20 at 8.17.47 PM.png
 ![](./images/plot4.png)
  
 
